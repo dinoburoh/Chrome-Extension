@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 10px;
+    min-width: 400px;
 }
 
 input {
@@ -20,6 +21,12 @@ button {
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
+}
+
+button#del-btn{
+    color: green;
+    background: white;
+    border: 1px solid green;
 }
 
 ul{
