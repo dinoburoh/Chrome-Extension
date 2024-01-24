@@ -53,20 +53,16 @@ function renderLeads() {
     }
 }
 
-function genSentence(desc, arr) {
-    let values = ""
-    for (let i = 0; i < arr.length; i++) {
-        if(i == arr.length - 1){
-            values += arr[i]
-        }else{
-            values += `${arr[i]}, `
-        }
-    }
-    return `The ${arr.length} ${desc} are ${values}`
-}
+// function genSentence(desc, arr) {
+//     let values = ""
+//     for (let i = 0; i < arr.length; i++) {
+//         if(i == arr.length - 1){
+//             values += arr[i]
+//         }else{
+//             values += `${arr[i]}, `
+//         }
+//     }
+//     return `The ${arr.length} ${desc} are ${values}`
+// }
 
-console.log(genSentence("largest countries", ["China", "India", "USA"]))
-
-for(){
-    element.innerHTML += `<img src= ${images[i]}></img>`
-}
+// console.log(genSentence("largest countries", ["China", "India", "USA"]))
